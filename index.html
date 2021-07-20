@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Suicide Prevention - Aparna Krishnan</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet"> 
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+    
+		<header>
+			<img id="ribbon" src="assets/ribbon.png" alt="image of the suicide prevention awareness ribbon with purple on the left half of the ribbon and turquoise on the right side of the ribbon">
+			<h1>Suicide Awareness + Prevention</h1>
+			<h4>National Suicide Prevention Lifeline: <a id="natlhotline" href="tel:1-800-273-8255">1-800-273-8255</a></h4>
+			<br/>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="info.html">More Info</a></li>
+					<li><a href="action.html">Take Action</a></li>
+			<!--stuff for take action: community groups; sf hotline intern-->
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<div class="flex-container">
+
+				<div class="flex-child magenta">
+					<h4>What is suicide and what are its causal factors?</h4><br/>
+          <p>Suicide is death caused by lethal self-harm. Some risk factors of suicide include: <strong>suicide attempts, misuse and abuse of alcohol and drugs, mental disorders (particularly depression and other mood disorders), access to lethal means, knowing someone who died by suicide (particularily a family member), social isolation, and chronic disease and disability.</strong></p>
+					<a id="crlink" href="https://www.sprc.org/about-suicide/risk-protective-factors">cr: Risk and Protective Factors- sprc.org</a>
+				</div>
+				
+				<div class="flex-child green">
+					<h4>Fact Generator</h4>
+					<input type="button" id="tellmebtn" value="click to learn something new">
+					<p id="fact"></p>
+				</div>
+				
+			</div><br/>
+
+			<div id="hotlinebtn">
+				<h4>Find Bay Area, CA county-specific suicide hotline numbers</h4>
+
+				<p id="comname"></p>
+				<a id="comnum"></a>
+
+				<div class="dropdown">
+					<button class="dropbtn">Hover Cursor Here 
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<div class="header">
+							<h2>Select County</h2>
+						</div>   
+						<div class="row">
+							<div class="column">
+								<h3>East Bay</h3>
+								<button id="ccc">Contra Costa</button>
+								<button id="ac">Alameda</button>
+								<button id="scc">Santa Clara</button>
+							</div>
+							<div class="column">
+								<h3>West Bay</h3>
+								<button id="smc">San Mateo</button>
+								<button id="sfc">San Fransisco</button>
+								<button id="mc">Marin</button>
+							</div>
+							<div class="column">
+								<h3>North Bay</h3>
+								<button id="sonc">Sonoma</button>
+								<button id="nc">Napa</button>
+								<button id="solc">Solano</button>	
+							</div>
+						</div>						
+					</div>
+				</div><br/> 
+			</div>
+		</main>
+    
+  </body>
+</html>
