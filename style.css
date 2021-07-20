@@ -1,0 +1,201 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+  padding: 0px;
+}
+
+body {
+ 	background-color: #CCDDFF;
+	font-size: larger;
+ 	font-family: 'Baloo 2', cursive;
+  color: #88498F;
+}
+
+/* STYLE TEXT */
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+h4 {
+	background-color: #FDF7CD;
+	padding: 1em;
+  margin-left: 25%;
+  margin-right: 25%;
+	text-align: center;
+	color: #88498F;
+}
+#crlink {
+  font-size: small;
+	margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-bottom: 8%;
+	display: block;
+	float: unset;
+	text-align: center;
+}
+.infolinks {
+  padding: 1em;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+	display: block;
+	float: unset;
+	text-align: center;
+	color: #88498F;
+  background-color: #C3B1E1;
+}
+.infolinks:hover {
+	border: 2px solid #88498F;
+}
+p {
+	text-align: center;
+}
+
+/* STYLE IMAGES */
+#ribbon {
+	border: 3px solid #88498F;
+  width: 4em;
+  border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+#preventionstrats {
+	width: 75%;
+	height: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+iframe {
+	padding: 1em;
+	width: 560px;
+	height: 315px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #C3B1E1;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+}
+li {
+  display: inline;
+  font-size: 30px;
+  padding: 1em;
+}
+li a {
+  text-decoration: none;
+  padding: 0.5em;
+  display: inline-block;
+}
+li a:hover {
+  background-color: #80ced7;
+}
+
+/* STYLE BUTTONS */
+#tellmebtn {
+	border: 3px solid #88498F;
+  font-family: 'Baloo 2', cursive;
+  font-size: 18px;
+  color: #88498F;
+  background-color: #C3B1E1;
+  padding: 2%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#tellmebtn:hover {
+	background-color: #80ced7;
+}
+
+/* ADD MORE! */
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 3px solid #FDF7CD;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+#hotlinebtn {
+	text-align: center;
+	border: 3px solid #FDF7CD;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown .dropbtn { 
+  border: 3px solid #88498F;
+  font-family: 'Baloo 2', cursive;
+  font-size: 18px;
+  color: #88498F;
+  background-color: #C3B1E1;
+  padding: 2%;
+  margin: 0;
+}
+.dropdown:hover .dropbtn {
+  background-color: #80ced7;
+}
+
+.dropdown-content .header {
+  background-color: #C3B1E1;
+  padding: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.column button {
+  font-family: 'Baloo 2', cursive;
+  color: black;
+  border: none;
+  padding: 10%;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+}
+
+.column button:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
